@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_school_2_school_2s",
+  "info": {
+    "name": "School_2",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "Principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "school-2.principal"
+    }
+  }
+}

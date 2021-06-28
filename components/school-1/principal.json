@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_school_principals",
+  "info": {
+    "name": "Principal",
+    "icon": "user-tie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "E_Mail": {
+      "type": "email"
+    },
+    "Teacher": {
+      "type": "component",
+      "repeatable": true,
+      "component": "school-1.teacher"
+    },
+    "Student": {
+      "type": "component",
+      "repeatable": true,
+      "component": "school-1.student"
+    }
+  }
+}

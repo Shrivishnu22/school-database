@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "school_2s",
+  "info": {
+    "name": "School_2"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "school-2.principal"
+    }
+  }
+}

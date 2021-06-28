@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_school_2_students",
+  "info": {
+    "name": "Student",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Standard": {
+      "type": "integer"
+    },
+    "Section": {
+      "type": "string"
+    }
+  }
+}

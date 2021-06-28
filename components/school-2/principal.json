@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_school_2_principals",
+  "info": {
+    "name": "Principal",
+    "icon": "user-check"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "E_Mail": {
+      "type": "email"
+    },
+    "Teacher": {
+      "type": "component",
+      "repeatable": true,
+      "component": "school-2.teacher"
+    },
+    "Student": {
+      "type": "component",
+      "repeatable": true,
+      "component": "school-2.student"
+    }
+  }
+}

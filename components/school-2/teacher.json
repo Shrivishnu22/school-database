@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_school_2_teachers",
+  "info": {
+    "name": "Teacher",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "E_Mail": {
+      "type": "email"
+    },
+    "Role": {
+      "type": "string"
+    }
+  }
+}

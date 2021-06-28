@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_school_teachers",
+  "info": {
+    "name": "Teacher",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "E_Mail": {
+      "type": "email"
+    }
+  }
+}

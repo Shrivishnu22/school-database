@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_school_students",
+  "info": {
+    "name": "Student",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Standard": {
+      "type": "integer"
+    },
+    "Section": {
+      "type": "string"
+    }
+  }
+}

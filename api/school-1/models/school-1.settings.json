@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "school_1s",
+  "info": {
+    "name": "School_1",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "school-1.principal"
+    }
+  }
+}
